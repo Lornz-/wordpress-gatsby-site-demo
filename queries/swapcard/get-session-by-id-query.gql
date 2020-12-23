@@ -1,0 +1,23 @@
+query sessionByIdQuery(
+  $eventId: String!
+  $page: Int!
+  $pageSize: Int!
+  $planningIds: [ID!]
+) {
+  plannings(
+    eventId: $eventId
+    page: $page
+    pageSize: $pageSize
+    filters: { planningIds: $planningIds }
+  ) {
+    beginsAt
+    endsAt
+    description
+    descriptionTranslations {
+      language
+      value
+    }
+    htmlDescription
+    place
+  }
+}

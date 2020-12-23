@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.find.cursorMoveOnType": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

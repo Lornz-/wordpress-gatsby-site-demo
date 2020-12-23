@@ -1,0 +1,15 @@
+query getPreviewPost($id: Int!, $status: PostStatusEnum!) {
+  posts(where: { id: $id, status: $status }) {
+    nodes {
+      revisions {
+        nodes {
+          id
+          excerpt
+          content
+          title
+          date
+        }
+      }
+    }
+  }
+}
