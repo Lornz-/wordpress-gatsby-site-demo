@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gatsby WordPress Demo
+  Wordpress Gatsby Site Demo
 </h1>
 
 Kick off your wordpress gatsby project with this blog boilerplate. This starter ships with the main Gatsby Wordpress configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -12,7 +12,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
    `git clone git@github.com:Lornz-/wordpress-gatsby-site-demo.git`
 
 2. **Create an `.env.development` file**\
-   Navigate into the root of the site directory.
+   Navigate into the root of the site directory.\
    `cd wordpress-gatsby-site-demo/`\
    Create an `.env.development` and add provided key/values following the `.env.example` file.
 
